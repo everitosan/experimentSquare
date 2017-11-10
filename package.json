@@ -1,0 +1,17 @@
+{
+  "name": "experimentsquare",
+  "version": "0.1.0",
+  "description": "Experiment with p5js for animations",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run harp && npm run serve",
+    "harp": "harp server &",
+    "serve": "browser-sync start --proxy 'localhost:9000' --files 'public';",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "evesan",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
